@@ -8,9 +8,9 @@ import Dispatcher from 'Dispatcher';
 import Subscriber from 'Subscriber';
 import NetworkManager from 'NetworkManager';
 import Image from 'Image';
-import Error from 'error';
-import Analyzer from 'analyzer';
+import Error from 'Error';
+import Analyzer from 'Analyzer';
 import InputDataHelper from 'InputDataHelper';
 import QueueManager from 'QueueManager';
 
-export default HitomiFramework; 
+export default Hitomi; 
