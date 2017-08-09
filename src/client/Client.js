@@ -53,6 +53,30 @@ class ClientHttpRequest extends Client {
  *-----------------------------------------------------------------------------------------------**/
 
 class ClientHttpResponse extends Client { 
+    constructor() { 
+        this._processedImage = null; 
+    }
+
+    /**--------------------------------------------------------------------------------------------------
+    /// <summary>Unpackage data.
+    /// </summary>
+    ///
+    /// <remarks>Andrew Owens, 8/8/2017.
+    /// </remarks>
+    ///
+    /// <param name="data">The data.</param>
+    ///
+    /// <returns>. Returns the processed image object.
+    /// </returns>
+     *-----------------------------------------------------------------------------------------------**/
+
+    function UnpackageData(data) { 
+        //do more logic if needed 
+        this.processedImage = data;
+        return this._processedImage;
+    }
+
+
 
 }
 
